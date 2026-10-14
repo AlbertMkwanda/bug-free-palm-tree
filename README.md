@@ -1,7 +1,7 @@
 # Mobile Money Transaction Fraud Detection
 
 **Student:** Albert Mkwanda (serial no. 1, registration no. 23311351001)  
-**Approach:** Supervised classification, as allocated in `COMPREHENSION-1.pdf`.
+**Approach:** Supervised classification.
 
 This project trains a Random Forest classifier to distinguish fraudulent from legitimate Malawi-style mobile-money transactions. It generates a deterministic 6,000-row synthetic dataset, performs stratified train/validation/test splits, selects a probability threshold by validation F1 using training data only, and reports accuracy, precision, recall, F1, ROC-AUC, average precision, and the untouched test confusion matrix.
 
